@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aesthetic Contact Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .form-card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: 320px;
+    }
+    h2 {
+      text-align: center;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    label {
+      font-size: 0.9rem;
+      color: #444;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      outline: none;
+      transition: 0.3s;
+    }
+    input:focus, textarea:focus {
+      border-color: #f4a261;
+      background-color: #fffaf3;
+    }
+    button {
+      background-color: #f4a261;
+      color: white;
+      padding: 0.6rem 1rem;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+    button:hover {
+      background-color: #e76f51;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-card">
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="your@email.com">
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+</body>
+</html>
