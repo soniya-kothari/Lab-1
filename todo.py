@@ -1,6 +1,6 @@
 # todo.py - Simple CLI To-Do List App
 
-FILENAME = "tasks.txt"
+FILENAME = "tasks.txt
 
 def show_tasks():
     try:
