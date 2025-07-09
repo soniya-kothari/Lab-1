@@ -1,13 +1,13 @@
 # todo.py - Simple CLI To-Do List App
 
-FILENAME = "tasks.txt
+FILENAME = "tasks.txt"
 
 def show_tasks():
     try:
         with open(FILENAME, "r") as file:
             tasks = file.readlines()
         if not tasks:
-            print("📭 No tasks found.")
+            print("📭 No tasks found."
         else:
             print("\n📋 Your To-Do List:")
             for idx, task in enumerate(tasks, 1):
